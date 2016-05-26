@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0AFB791CF5C7CB008BF3E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AFB781CF5C7CB008BF3E3 /* AppDelegate.swift */; };
+		2E0AFB7B1CF5C7CB008BF3E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AFB7A1CF5C7CB008BF3E3 /* ViewController.swift */; };
+		2E0AFB7E1CF5C7CB008BF3E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0AFB7C1CF5C7CB008BF3E3 /* Main.storyboard */; };
+		2E0AFB811CF5C7CB008BF3E3 /* ZJLabel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AFB7F1CF5C7CB008BF3E3 /* ZJLabel.xcdatamodeld */; };
+		2E0AFB831CF5C7CB008BF3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0AFB821CF5C7CB008BF3E3 /* Assets.xcassets */; };
+		2E0AFB861CF5C7CB008BF3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0AFB841CF5C7CB008BF3E3 /* LaunchScreen.storyboard */; };
+		2E0AFB911CF5C7CC008BF3E3 /* ZJLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AFB901CF5C7CC008BF3E3 /* ZJLabelTests.swift */; };
+		2E0AFB9C1CF5C7CC008BF3E3 /* ZJLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AFB9B1CF5C7CC008BF3E3 /* ZJLabelUITests.swift */; };
+		2E0AFBAA1CF5C81C008BF3E3 /* ZJLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0AFBA91CF5C81C008BF3E3 /* ZJLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E0AFB8D1CF5C7CC008BF3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E0AFB6D1CF5C7CB008BF3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0AFB741CF5C7CB008BF3E3;
+			remoteInfo = ZJLabel;
+		};
+		2E0AFB981CF5C7CC008BF3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E0AFB6D1CF5C7CB008BF3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0AFB741CF5C7CB008BF3E3;
+			remoteInfo = ZJLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E0AFB751CF5C7CB008BF3E3 /* ZJLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0AFB781CF5C7CB008BF3E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E0AFB7A1CF5C7CB008BF3E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E0AFB7D1CF5C7CB008BF3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E0AFB801CF5C7CB008BF3E3 /* ZJLabel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZJLabel.xcdatamodel; sourceTree = "<group>"; };
+		2E0AFB821CF5C7CB008BF3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E0AFB851CF5C7CB008BF3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E0AFB871CF5C7CB008BF3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0AFB8C1CF5C7CC008BF3E3 /* ZJLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0AFB901CF5C7CC008BF3E3 /* ZJLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLabelTests.swift; sourceTree = "<group>"; };
+		2E0AFB921CF5C7CC008BF3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0AFB971CF5C7CC008BF3E3 /* ZJLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0AFB9B1CF5C7CC008BF3E3 /* ZJLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLabelUITests.swift; sourceTree = "<group>"; };
+		2E0AFB9D1CF5C7CC008BF3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0AFBA91CF5C81C008BF3E3 /* ZJLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E0AFB721CF5C7CB008BF3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0AFB891CF5C7CC008BF3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0AFB941CF5C7CC008BF3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0AFB6C1CF5C7CB008BF3E3 = {
+			isa = PBXGroup;
+			children = (
+				2E0AFB771CF5C7CB008BF3E3 /* ZJLabel */,
+				2E0AFB8F1CF5C7CC008BF3E3 /* ZJLabelTests */,
+				2E0AFB9A1CF5C7CC008BF3E3 /* ZJLabelUITests */,
+				2E0AFB761CF5C7CB008BF3E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E0AFB761CF5C7CB008BF3E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E0AFB751CF5C7CB008BF3E3 /* ZJLabel.app */,
+				2E0AFB8C1CF5C7CC008BF3E3 /* ZJLabelTests.xctest */,
+				2E0AFB971CF5C7CC008BF3E3 /* ZJLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E0AFB771CF5C7CB008BF3E3 /* ZJLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2E0AFB781CF5C7CB008BF3E3 /* AppDelegate.swift */,
+				2E0AFB7A1CF5C7CB008BF3E3 /* ViewController.swift */,
+				2E0AFBA91CF5C81C008BF3E3 /* ZJLabel.swift */,
+				2E0AFB7C1CF5C7CB008BF3E3 /* Main.storyboard */,
+				2E0AFB821CF5C7CB008BF3E3 /* Assets.xcassets */,
+				2E0AFB841CF5C7CB008BF3E3 /* LaunchScreen.storyboard */,
+				2E0AFB871CF5C7CB008BF3E3 /* Info.plist */,
+				2E0AFB7F1CF5C7CB008BF3E3 /* ZJLabel.xcdatamodeld */,
+			);
+			path = ZJLabel;
+			sourceTree = "<group>";
+		};
+		2E0AFB8F1CF5C7CC008BF3E3 /* ZJLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E0AFB901CF5C7CC008BF3E3 /* ZJLabelTests.swift */,
+				2E0AFB921CF5C7CC008BF3E3 /* Info.plist */,
+			);
+			path = ZJLabelTests;
+			sourceTree = "<group>";
+		};
+		2E0AFB9A1CF5C7CC008BF3E3 /* ZJLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E0AFB9B1CF5C7CC008BF3E3 /* ZJLabelUITests.swift */,
+				2E0AFB9D1CF5C7CC008BF3E3 /* Info.plist */,
+			);
+			path = ZJLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E0AFB741CF5C7CB008BF3E3 /* ZJLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0AFBA01CF5C7CC008BF3E3 /* Build configuration list for PBXNativeTarget "ZJLabel" */;
+			buildPhases = (
+				2E0AFB711CF5C7CB008BF3E3 /* Sources */,
+				2E0AFB721CF5C7CB008BF3E3 /* Frameworks */,
+				2E0AFB731CF5C7CB008BF3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLabel;
+			productName = ZJLabel;
+			productReference = 2E0AFB751CF5C7CB008BF3E3 /* ZJLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E0AFB8B1CF5C7CC008BF3E3 /* ZJLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0AFBA31CF5C7CC008BF3E3 /* Build configuration list for PBXNativeTarget "ZJLabelTests" */;
+			buildPhases = (
+				2E0AFB881CF5C7CC008BF3E3 /* Sources */,
+				2E0AFB891CF5C7CC008BF3E3 /* Frameworks */,
+				2E0AFB8A1CF5C7CC008BF3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0AFB8E1CF5C7CC008BF3E3 /* PBXTargetDependency */,
+			);
+			name = ZJLabelTests;
+			productName = ZJLabelTests;
+			productReference = 2E0AFB8C1CF5C7CC008BF3E3 /* ZJLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E0AFB961CF5C7CC008BF3E3 /* ZJLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0AFBA61CF5C7CC008BF3E3 /* Build configuration list for PBXNativeTarget "ZJLabelUITests" */;
+			buildPhases = (
+				2E0AFB931CF5C7CC008BF3E3 /* Sources */,
+				2E0AFB941CF5C7CC008BF3E3 /* Frameworks */,
+				2E0AFB951CF5C7CC008BF3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E0AFB991CF5C7CC008BF3E3 /* PBXTargetDependency */,
+			);
+			name = ZJLabelUITests;
+			productName = ZJLabelUITests;
+			productReference = 2E0AFB971CF5C7CC008BF3E3 /* ZJLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E0AFB6D1CF5C7CB008BF3E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "庄记";
+				TargetAttributes = {
+					2E0AFB741CF5C7CB008BF3E3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = V64QWHSCAN;
+					};
+					2E0AFB8B1CF5C7CC008BF3E3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2E0AFB741CF5C7CB008BF3E3;
+					};
+					2E0AFB961CF5C7CC008BF3E3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2E0AFB741CF5C7CB008BF3E3;
+					};
+				};
+			};
+			buildConfigurationList = 2E0AFB701CF5C7CB008BF3E3 /* Build configuration list for PBXProject "ZJLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E0AFB6C1CF5C7CB008BF3E3;
+			productRefGroup = 2E0AFB761CF5C7CB008BF3E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E0AFB741CF5C7CB008BF3E3 /* ZJLabel */,
+				2E0AFB8B1CF5C7CC008BF3E3 /* ZJLabelTests */,
+				2E0AFB961CF5C7CC008BF3E3 /* ZJLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E0AFB731CF5C7CB008BF3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0AFB861CF5C7CB008BF3E3 /* LaunchScreen.storyboard in Resources */,
+				2E0AFB831CF5C7CB008BF3E3 /* Assets.xcassets in Resources */,
+				2E0AFB7E1CF5C7CB008BF3E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0AFB8A1CF5C7CC008BF3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0AFB951CF5C7CC008BF3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0AFB711CF5C7CB008BF3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0AFBAA1CF5C81C008BF3E3 /* ZJLabel.swift in Sources */,
+				2E0AFB7B1CF5C7CB008BF3E3 /* ViewController.swift in Sources */,
+				2E0AFB811CF5C7CB008BF3E3 /* ZJLabel.xcdatamodeld in Sources */,
+				2E0AFB791CF5C7CB008BF3E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0AFB881CF5C7CC008BF3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0AFB911CF5C7CC008BF3E3 /* ZJLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0AFB931CF5C7CC008BF3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0AFB9C1CF5C7CC008BF3E3 /* ZJLabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E0AFB8E1CF5C7CC008BF3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E0AFB741CF5C7CB008BF3E3 /* ZJLabel */;
+			targetProxy = 2E0AFB8D1CF5C7CC008BF3E3 /* PBXContainerItemProxy */;
+		};
+		2E0AFB991CF5C7CC008BF3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E0AFB741CF5C7CB008BF3E3 /* ZJLabel */;
+			targetProxy = 2E0AFB981CF5C7CC008BF3E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E0AFB7C1CF5C7CB008BF3E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E0AFB7D1CF5C7CB008BF3E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E0AFB841CF5C7CB008BF3E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E0AFB851CF5C7CB008BF3E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E0AFB9E1CF5C7CC008BF3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E0AFB9F1CF5C7CC008BF3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E0AFBA11CF5C7CC008BF3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZJLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanxin.ZJLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2E0AFBA21CF5C7CC008BF3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZJLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanxin.ZJLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2E0AFBA41CF5C7CC008BF3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanxin.ZJLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLabel.app/ZJLabel";
+			};
+			name = Debug;
+		};
+		2E0AFBA51CF5C7CC008BF3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanxin.ZJLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLabel.app/ZJLabel";
+			};
+			name = Release;
+		};
+		2E0AFBA71CF5C7CC008BF3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanxin.ZJLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLabel;
+			};
+			name = Debug;
+		};
+		2E0AFBA81CF5C7CC008BF3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanxin.ZJLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E0AFB701CF5C7CB008BF3E3 /* Build configuration list for PBXProject "ZJLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0AFB9E1CF5C7CC008BF3E3 /* Debug */,
+				2E0AFB9F1CF5C7CC008BF3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0AFBA01CF5C7CC008BF3E3 /* Build configuration list for PBXNativeTarget "ZJLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0AFBA11CF5C7CC008BF3E3 /* Debug */,
+				2E0AFBA21CF5C7CC008BF3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E0AFBA31CF5C7CC008BF3E3 /* Build configuration list for PBXNativeTarget "ZJLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0AFBA41CF5C7CC008BF3E3 /* Debug */,
+				2E0AFBA51CF5C7CC008BF3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E0AFBA61CF5C7CC008BF3E3 /* Build configuration list for PBXNativeTarget "ZJLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0AFBA71CF5C7CC008BF3E3 /* Debug */,
+				2E0AFBA81CF5C7CC008BF3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E0AFB7F1CF5C7CB008BF3E3 /* ZJLabel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E0AFB801CF5C7CB008BF3E3 /* ZJLabel.xcdatamodel */,
+			);
+			currentVersion = 2E0AFB801CF5C7CB008BF3E3 /* ZJLabel.xcdatamodel */;
+			path = ZJLabel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E0AFB6D1CF5C7CB008BF3E3 /* Project object */;
+}
